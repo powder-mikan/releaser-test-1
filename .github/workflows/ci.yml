@@ -10,4 +10,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Run checks
-        run: echo "All good" && exit 0
+        run: echo "Intentional CI failure for demo" && exit 1
