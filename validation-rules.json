@@ -1,0 +1,6 @@
+{
+  "rules": {
+    "required": ["email", "age"],
+    "maxAge": 150
+  }
+}
